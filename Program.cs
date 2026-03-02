@@ -15,7 +15,7 @@ using System.Threading.Tasks;
 public class ComputerPlayer
 {
     // This method generates a random choice for the computer player.
-    public string GetChoice()
+    public string GenerateChoice()
     {
         Random rand = new Random();
         int choice = rand.Next(1, 4); // 1 = rock, 2 = paper, 3 = scissors
